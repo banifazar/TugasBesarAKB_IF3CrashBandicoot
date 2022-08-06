@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    TANGGAL PENGERJAAN: 3 Agustus 2022
+    NIM, NAMA DAN KELAS: 1. 10119105 - RYNDRA PUTRA P.F. - IF3
+                         2. 10119110 - BANI FAZA RASYADAN - IF3
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/liburan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BotNav.LiburanFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    TANGGAL PENGERJAAN: 4 Agustus 2022
+    NIM, NAMA DAN KELAS: 1. 10119110 - BANI FAZA RASYADAN - IF3
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/liburan"
+        android:id="@+id/liburan"
+        android:title="Liburan" />
+    <item
+        android:icon="@drawable/profile"
+        android:id="@+id/profile"
+        android:title="Profil" />
+
+
+
+
+</menu>

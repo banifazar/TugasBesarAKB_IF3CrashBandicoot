@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    TANGGAL PENGERJAAN: 4 Agustus 2022
+    NIM, NAMA DAN KELAS: 1. 10119126 - DICKY SETIADI - IF3
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BotNav.ProfilFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Profil Anggota Kelompok\nCrash Bandicoot"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Kelas IF-3"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="500dp"
+            android:layout_height="300dp"
+            android:src="@drawable/bryan" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIM: 10119088"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama: Laurentius Bryan H."/>
+
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="500dp"
+            android:layout_height="300dp"
+            android:src="@drawable/sandi" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIM: 10119099"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama: Sandi Komara"/>
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="500dp"
+            android:layout_height="300dp"
+            android:src="@drawable/ryndra" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIM: 10119105"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama: Ryndra Putra P.F."/>
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="500dp"
+            android:layout_height="300dp"
+            android:src="@drawable/banifr" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIM: 10119110"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama: Bani Faza Rasyadan"/>
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="500dp"
+            android:layout_height="300dp"
+            android:src="@drawable/dicky" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIM: 10119126"/>
+
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama: Dicky Setiadi"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

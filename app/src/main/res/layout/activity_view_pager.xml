@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    TANGGAL PENGERJAAN: 3 Agustus 2022
+    NIM, NAMA DAN KELAS: 1. 10119099 - SANDI KOMARA - IF3
+                         2. 10119088 - LAURENTIUS BRYAN H. - IF3
+-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewPager.ViewPagerActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

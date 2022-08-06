@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "436151705768",
+    "project_id": "tugasbesarakbif3crashban-b3d4f",
+    "storage_bucket": "tugasbesarakbif3crashban-b3d4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436151705768:android:be806feebe2fcbfb16a29d",
+        "android_client_info": {
+          "package_name": "com.example.tugasbesarakbif3crashbandicoot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436151705768-oeperejtkaducv64trqnnctj1pv7vvbn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZrRmhRPFf-8phxtVFfcq-yzPga1DL-lI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436151705768-oeperejtkaducv64trqnnctj1pv7vvbn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    TANGGAL PENGERJAAN: 4 Agustus 2022
+    NIM, NAMA DAN KELAS: 1. 10119088 - LAURENTIUS BRYAN H. - IF3
+                         2. 10119126 - DICKY SETIADI - IF3
+                         3. 10119099 - SANDI KOMARA - IF3
+                         4. 10119110 - BANI FAZA RASYADAN - IF3
+                         5. 10119105 - RYNDRA PUTRA P.F. - IF3
+-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="?android:attr/listSeparatorTextViewStyle"
+    android:id="@+id/liburan_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/nama_txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="5dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tempat_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nama_txtView" />
+
+    <TextView
+        android:id="@+id/longitude_txtView"
+        android:layout_width="61dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="4dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/latitude_txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="3dp"
+        android:text="TextView"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/longitude_txtView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
